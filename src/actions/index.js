@@ -4,7 +4,7 @@ import { formValues } from 'redux-form'
 
 export const loggingin = (formValues) => {
     return async function(dispatch){
-        await axios.post('http://localhost:3900/login',formValues)
+        await axios.post('/api/login',formValues)
         .then( response => {
             console.log(response.data.dateinseconds)
             localStorage.setItem("token",response.data.token)  
