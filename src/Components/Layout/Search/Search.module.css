@@ -1,0 +1,33 @@
+.searchContent{
+    height: 100%;
+    width:100%;
+    overflow: scroll;
+    background-color: white;
+}
+.searchSection
+{
+    color: black;
+    padding: 5% 5%;
+    border-bottom: 1px solid #e3e3e3;
+}
+.searchHeader
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.searchedUsers
+{
+    padding:1% 21%;
+}
+@media only screen and (max-width: 400px) {
+    .searchContent{
+        height: 100%;
+        overflow: scroll;
+    }
+    .searchedUsers
+    {
+        padding:1% 4%;
+    }
+}

@@ -1,0 +1,15 @@
+.dashBoardContent{
+    width: 96%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 400px) {
+    .dashBoardContent{
+        overflow: scroll;
+        width: 100%;
+        padding: 16px 35px;
+    }
+}

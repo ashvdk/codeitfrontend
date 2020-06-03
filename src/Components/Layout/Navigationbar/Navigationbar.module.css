@@ -1,0 +1,44 @@
+.navigationBar
+{
+    background: white;
+    height: 100vh;
+    width: 4%;
+    position: relative;
+    top:0px;
+    left:0px;
+    display: flex;
+    flex-direction:column;
+    border-right: 2px solid #f5f6f7;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 400px) {
+    .navigationBar {
+        width: 100vw;
+        height: 66px;
+        flex-direction: row;
+        position: fixed;
+        bottom: 0px;
+        top: unset;
+        border-top: 2px solid #f5f6f7;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 1;
+    }
+    .sidebarElements{
+        margin-top: unset !important;
+    }
+}
+.sidebarElements{
+    padding:17px;
+    margin-top: 26px;
+}
+.fontAwesomeIcons{
+    font-size:30px;
+    color:#aab0b7;
+    cursor: pointer;
+}
+.fontAwesomeIcons:hover{
+    color: #0876ff;
+}

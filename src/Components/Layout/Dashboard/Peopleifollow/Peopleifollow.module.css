@@ -1,0 +1,97 @@
+.peopleifollowContent
+{
+    width: 100%;
+}
+.rightanswer
+{
+    border: 1px solid green !important;
+}
+.wronganswer
+{
+    border: 1px solid red !important;
+}
+.options{
+    border: 1px solid #dedede;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    cursor:pointer;
+}
+.card {
+    display: grid;
+    grid-template-columns: 230px;
+    grid-template-rows: 100px 80px;
+    grid-template-areas: "text" "stats";
+    /* border-radius: 18px; */
+    background: white;
+    /* text-align: center; */
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+    border: 1px solid #e3e3e3;
+}
+.cardimage {
+    grid-area: image;
+    background: url("https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/12/9-Best-Online-Avatars-and-How-to-Make-Your-Own-for-Free-image1-5.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.cardtext {
+    grid-area: text;
+    margin: 25px;
+}
+.cardtext .date {
+    color: rgb(255, 7, 110);
+    font-size:13px;
+}
+.cardtext p {
+    color: grey;
+    font-size:15px;
+    font-weight: 300;
+}
+.cardtext h2 {
+    margin-top:0px;
+    font-size:28px;
+}
+.cardstats {
+    grid-area: stats; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* background: rgb(255, 7, 110); */
+    border-top: 1px solid #e3e3e3;
+}
+.cardstats .stat {
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* color: white; */
+}
+.cardstats .border {
+    /* border-left: 1px solid rgb(172, 26, 87);
+    border-right: 1px solid rgb(172, 26, 87); */
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+}
+.cardstats .value{
+    font-size:22px;
+    font-weight: 500;
+}
+.cardstats .value sup{
+    font-size:12px;
+}
+.cardstats .type{
+    font-size:11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card:hover {
+    transform: scale(1.15);
+}
+

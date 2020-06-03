@@ -1,0 +1,20 @@
+.hero_nav{
+    padding: 26px 50px;
+    /* border-bottom: 2px solid #f5f6f7; */
+}
+.postWebsite{
+    width: 100%;
+    background: white;
+    /* display: flex;
+    flex-direction: row; */
+}
+.AllQuestion
+{
+    padding:20px 50px;
+}
+@media only screen and (max-width: 400px) {
+    .postWebsite{
+        height: 100%;
+        overflow: scroll;
+    }
+}

@@ -1,0 +1,42 @@
+.listtest
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-right: 1px solid #e3e3e3;
+}
+.createatest
+{
+    height: 10%;
+    cursor: pointer;
+    font-size: 21px;
+    padding: 10% 7%;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.showalltest
+{
+    height: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+    position: relative;
+}
+a:hover
+{
+    color: none;
+    text-decoration: unset;
+}
+.individualTest
+{
+    display: flex;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 18px;
+    padding: 15px 12px;
+    cursor: pointer;
+    /* background-color: white;
+    padding: 15px 68px;
+    border-bottom: 1px solid #e3e3e3;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 9px; */
+}
